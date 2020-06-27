@@ -5,3 +5,4 @@ Includes following-
 1. Tree data structure
   - Binary tree implementation
   - Tree traversals
+  - Binary search tree
