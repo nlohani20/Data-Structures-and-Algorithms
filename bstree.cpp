@@ -20,6 +20,7 @@ class bst
         node* insert1(node *root, node *nn);
         void create();
         void inorder(node *root);
+        void search1(node *root, int key);
 };
 
 node* bst :: insert1(node *root, node *nn)
@@ -70,11 +71,35 @@ void bst::create()
     }while(ans=='y');
 }
 
+void bst :: search1(node *root,int key)
+{
+    if(root==NULL)
+    {
+        cout<<"\n"<<key<<" is not present.";
+        return;
+    }
+    if(key==root->data)
+    {
+        cout<<"\n"<<key<<" is present.";
+        return;
+    }
+    else if(key < root->data)
+    {
+        search1(root->left,key);
+    }
+    else if(key > root->data)
+    {
+        search1(root->right,key);
+    }
+}
 
 int main()
 {
     bst b;
+    int key;
     b.create();
     b.inorder(b.root);
-
+    cout<<"\nEnter the key to be searched.";
+    cin>>key;
+    b.search1(b.root,key);
 }
