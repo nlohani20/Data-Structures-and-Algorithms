@@ -6,7 +6,7 @@ class node
     public:
         int data;
         node *left,*right;
-        node(int x)                     //constructor
+        node(int x) 
         {
             data=x;
             left = right=NULL;
