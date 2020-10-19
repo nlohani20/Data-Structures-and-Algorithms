@@ -1,6 +1,6 @@
 # Data-Structures-and-Algorithms
 
-Course by- Codewithharry (youTube)
+Course by- Jenny Lectures (youTube)
 
 Contains implementation of different data structures and algorithms.
 
