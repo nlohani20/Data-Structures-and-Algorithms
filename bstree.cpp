@@ -6,7 +6,7 @@ class node
     public:
         int data;
         node *left,*right;
-        node(int x) 
+        node(int x)                             //constructor
         {
             data=x;
             left = right=NULL;
@@ -23,7 +23,7 @@ class bst
         void search1(node *root, int key);
 };
 
-node* bst :: insert1(node *root, node *nn)
+node* bst :: insert1(node *root, node *nn)              //insert
 {
     node *temp=root;
     if(temp==NULL)
@@ -41,7 +41,7 @@ node* bst :: insert1(node *root, node *nn)
     return temp;
 }
 
-void bst::inorder (node *root)
+void bst::inorder (node *root)                          //insert
 {
     if(root==NULL)
     {
