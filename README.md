@@ -9,3 +9,9 @@ Includes following-
   - Binary tree implementation
   - Tree traversals
   - Binary search tree
+  - AVL tree
+  - Red-Black tree
+  - splay tree
+  - B-tree
+  - B+ tree
+  
