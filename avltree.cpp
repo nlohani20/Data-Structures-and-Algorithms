@@ -187,7 +187,7 @@ int main()
         10 25 50
     */
     cout << "Preorder traversal of the "
-            "constructed AVL tree is \n";
+            "constructed AVL tree is ";
     preOrder(root);
      
     return 0;
