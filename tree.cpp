@@ -13,7 +13,11 @@ node* create()
     node *nn;
     int x;
     nn=new node();
+
     cout<<"\nEnter data (-1 for no node).\n";
+
+    cout<<"\nEnter data (-1 for no node).\n\n";
+
     cin>>x;
     if(x==-1)
     {
