@@ -65,7 +65,7 @@ void bst::create()
         root=insert1(root,nn);
         cout<<"\n"<<x<<" inserted.";
 
-        cout<<"\nDo you want to insert more?(y/n)";
+        cout<<"\nDo you want to insert more?(y/n) \n\n";
         cin>>ans;
 
     }while(ans=='y');
