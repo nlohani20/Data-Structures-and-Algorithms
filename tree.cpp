@@ -24,9 +24,9 @@ node* create()
         return 0;
     }
     nn->data=x;
-    cout<<"\nEnter left child of "<<x;
+    cout<<"\n\nEnter left child of "<<x;
     nn->left=create();
-    cout<<"\nEnter right child of "<<x;
+    cout<<"\n\nEnter right child of "<<x;
     nn->right=create();
     return nn;
 }
